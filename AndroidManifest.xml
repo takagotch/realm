@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmls:android="http://schemas.android.com/apk/res/android"
+	package="com.ex.username.myscheduler">
+
+<application
+	android:name=".MySchedulerApplication"
+	android:allowBackup="true"
+	android:icon="@mipmap/ic_launcher">
+
+
