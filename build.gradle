@@ -1,0 +1,17 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+android{
+
+}
+
+buildscript{
+  repositories{
+    jcenter()
+  }
+  dependencies{
+    classpath "io.realm:realm-gradle-plugin:3.0.0"
+    compile 'io.realm:android-adapters:2.0.0'
+  }
+}
+
